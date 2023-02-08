@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1 уровень</title>
+    <link rel="stylesheet" href="../../styles/un/Game/1lvl.css">
+    <script src="../../javascript/Game/1lvl.js" defer></script>
+</head>
+<body>
+    <header class="fl-header">
+        <div class="flh-items">
+            <section class="flh-header">
+                <h1 class="flh-h-header">Угадай задержку!</h1>
+                <p>Перед тобой с опеределенным промежутком времени загорятся лампочки. Нужно зажечь их через тот же промежуток. 
+                    <br>Если получится, то тубрики твои. <br>Достаточно набрать 5 тубриков для перехода на средний уровень. И 12 тубриков – для сложного!</p>
+            </section>
+            <section class="flh-score">
+                <h2 class="flh-s-name">Имя: </h2>
+                <h2 class="flh-s-txt">Тубрики: 0<br>Легкая сложность</h2>
+            </section>
+            <section class="flh-exit">
+                <a href="../Fgame.html" class="flh-e-txt">Выйти</a>
+            </section>
+        </div>
+    </header>
+    <main class="fl-content">
+        <section class="flc-lamp">
+            <div class="lamp"  id="lamp1"> </div>
+            <div class="lamp" id="lamp2"> </div>
+            <div class="lamp" id="lamp3"> </div>
+        </section>
+        <section class="flc-results">
+            Нажми на кнопку начать
+        </section>
+        <section class="flc-start">
+            <select name="flc-s-complexity" id="flc-s-complexity">
+                <option value="easy">Легкий</option>
+                <option value="medium">Средний</option>
+                <option value="hard">Сложный</option>
+            </select>
+            <button class="flc-s-btn">Начать</button>
+        </section>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>

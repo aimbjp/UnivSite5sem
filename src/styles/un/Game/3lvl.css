@@ -1,0 +1,38 @@
+.flc-game{
+    width: 100vw;
+    min-height: 70vh;
+
+}
+
+.flc-game{
+    display: grid;
+}
+
+.racoon {
+    background-image: url('../../../images/pictures/game/racoon.png');
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    align-self: end;
+}
+
+#i1{
+    height: 50px;
+    width: 50px;
+    background-image: url('../../../images/pictures/game/banan.png');
+    position: absolute;
+}
+
+#i2{
+    height: 50px;
+    width: 50px;
+    background-image: url('../../../images/pictures/game/pine.jpeg');
+    position: absolute;
+}
+
+#i3{
+    height: 50px;
+    width: 50px;
+    background-image: url('../../../images/pictures/game/orange.png');
+    position: absolute;
+}

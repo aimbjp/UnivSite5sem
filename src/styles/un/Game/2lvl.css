@@ -1,0 +1,39 @@
+#maze {
+    border-style: solid;
+    align-self: center;
+    justify-self: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+  
+.block {
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+.wall {
+    background-color: rgb(3, 188, 46);
+}
+
+.cur {
+position: relative;
+width: 20px;
+height: 20px;
+background-image: url('../../../images/pictures/game/mousecore.png');
+}
+
+.finish {
+    background-color: #6e3500;
+}
+
+.time {
+    justify-self: center;
+}
+
+.fl-content {
+    margin-top: 5vh;
+}
+
+
+  

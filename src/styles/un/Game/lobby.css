@@ -1,0 +1,59 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 3vw;
+    text-align: center;
+    border-radius: 20px;
+    border-color: rgb(195, 192, 192);
+    background-color: rgb(179, 236, 236);
+    user-select: none;
+}
+
+
+.gc-form{
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 3vh;
+    width: 100vw;
+    height: auto;
+    justify-items: center;
+    margin-top: 5vh;
+}
+
+.gc-f-btn {
+    padding: 2vw;
+    width: 20vw;
+    height: 100%;
+    cursor: pointer;
+    background-color: coral;
+    color: rgb(56, 54, 54);
+    min-height: 4vh;
+}
+
+.gc-f-btn:hover {
+    background-color: rgb(56, 54, 54);
+    color: wheat;
+}
+
+.gc-f-name {
+    color: wheat;
+    background-color: rgb(56, 54, 54);
+    min-height: 3vh;
+}
+
+.gc-f-name:hover {
+    background-color: coral;
+    color: rgb(56, 54, 54);
+}
+
+.gh-header {
+    color: rgb(56, 54, 54);
+}
+
+.gc-txt {
+    opacity: 0.5;
+    color: rgb(56, 54, 54);
+}

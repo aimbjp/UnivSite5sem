@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --darkPurple: #271338;
+    --purple: #4c2a64;
+    --darkPink: #a84b94;
+    --lightPink: #efbcef;
+    --ultraLightBlue: #d7d5f3;
+    font-size: 16px;
+    font-family: 'Matias', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: Matias;
+    src: url(../../fonts/Matias\ Webfont.ttf);
+}
+
+body {
+    display: grid;
+}
+
+.main {
+    display: flex;
+    background: linear-gradient(#d7d5f3, #a84b94);
+    min-height: 90vh;
+}
+
+    .main .nav {
+        padding-top: 1%;
+        padding-left: 1%;
+        padding-right: 2%;
+        border-right: solid #271338;
+        border-bottom: solid #271338;
+        min-width: 15vw;
+    }
+    
+    @media (max-width: 800px) {
+        .main .nav {
+            min-width: 100vw;
+            padding-bottom: 2%;
+            border-right: none;
+        }
+        .main {
+            min-height: 80vh;
+            flex-direction: column;
+        }
+    }
+    
+        .main .nav .nav-list{
+            list-style-type: none;
+            display: grid;
+            gap: 2vh;
+            justify-content: center;
+        }
+
+            .main .nav .nav-list .link {
+                width: 100%;
+                text-align: center;
+            }
+                .main .nav .nav-list .link .link-in-menu {
+                    text-decoration: none;
+                    color: #271338;
+                    font-size: 1.3em;
+                    text-align: center;
+                }
+
+                    .main .nav .nav-list .link:hover .link-in-menu {
+                        border-bottom: solid #271338;
+                    }
+    
+.main-part h1, .main-part h2{
+    text-align: center;
+}
+
+.main-part h1 {
+    line-height: 2;
+}
+
+.main-part h2 {
+    line-height: 3;
+}
+
+.main-part p {
+    text-align: justify;
+    line-height: 2;
+    font-size: 1.4em;
+    text-indent: 2%;
+}
+
+.main-part {
+    display: grid;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 768px) {
+    .main-part p {
+        text-align: justify;
+        line-height: 1.5;
+        font-size: 1em;
+        text-indent: 4%;
+    }
+    .main-part h1 {
+        font-size: 1.7em;
+    }
+    
+    .main-part h2 {
+        padding-bottom: 4vh;
+        font-size: 1.2em;
+        visibility: visible;
+    }
+    .main-part {
+        width: 90vw;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+body {
+    display: grid;
+    gap: 3vh
+}
+
+.rh-header {
+    margin-top: 3vh;
+}
+
+.rate-content{
+    display: grid;
+    gap: 5vh;
+}
+
+.rc-txt {
+
+}
+
+.rc-users {
+    display: grid;
+    gap: 5vh;
+}
+
+.rc-u-text {
+    font-size: 1.5em;
+    border: 4px solid gold;
+    border-radius: 20px;
+    width: 30vw;
+    justify-self: center;
+}
+
+.rf-txt {
+    font-size: 1.4em;
+}

@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    background: linear-gradient(#a84b94, #271338);
+}
+
+    footer .contacts {
+        margin-top: 1%;
+        margin-right: 2%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+        footer .contacts ol {
+            list-style-type: none;
+            display: grid;
+            justify-content: center;
+        }
+
+            footer .contacts ol li{
+                width: 80%;
+                text-align: start;
+            }
+            
+                footer .contacts ol li a{
+                    text-decoration: none;
+                    color: #271338;
+                    font-size: 1.3em;
+                    text-align: center;
+                }
+
+                    footer .contacts ol li a img {
+                       width: 50%; 
+                    }
+
+    footer .logo {
+        width: 20%;
+        justify-self: center;
+        align-self: center;
+    }
+        footer .logo img {
+            width: 100%;
+        }
+
